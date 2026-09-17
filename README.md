@@ -1,60 +1,60 @@
-# 📝 Lista de Tareas en Python
+# Task List in Python
 
-Aplicación de consola para gestionar una lista de tareas: permite ver, agregar y eliminar tareas mediante un menú interactivo. Las tareas se **guardan en un archivo** (`tareas.json`), así no se pierden al cerrar el programa.
+A console application for managing a task list: view, add, and remove tasks via an interactive menu. Tasks are **saved to a file** (`tasks.json`), so they are not lost when the program closes.
 
-## 🚀 ¿Qué hace?
+## 🚀 What it does
 
-- **Ver tareas**: muestra todas las tareas guardadas (numeradas) o avisa si la lista está vacía.
-- **Agregar tareas**: añade una nueva tarea y la guarda en disco.
-- **Eliminar tareas**: quita una tarea por su número, validando que exista.
-- **Persistencia**: las tareas se guardan en `tareas.json` y se cargan al iniciar.
-- **Salir**: cierra el programa.
+- **View tasks**: displays all saved tasks (numbered) or notifies if the list is empty.
+- **Add tasks**: adds a new task and saves it to disk.
+- **Remove tasks**: removes a task by its number, validating it exists.
+- **Persistence**: tasks are saved in `tasks.json` and loaded on startup.
+- **Exit**: closes the program.
 
-## 🛠️ Tecnologías
+## 🛠️ Technologies
 
 - Python 3
-- Módulos estándar: `json`, `os`
+- Standard modules: `json`, `os`
 
-## ▶️ Cómo ejecutarlo
+## ▶️ How to run
 
-1. Clona este repositorio o descarga `Tareas.py`
-2. Abre una terminal en la carpeta del proyecto
-3. Ejecuta:
+1. Clone this repository or download `Tareas.py`
+2. Open a terminal in the project folder
+3. Run:
 
 ```bash
 python Tareas.py
 ```
 
-4. Sigue las instrucciones del menú (elige una opción del 1 al 4)
+4. Follow the menu instructions (choose an option from 1 to 4)
 
-## 📸 Ejemplo de uso
+## 📸 Usage example
 
 ```text
 ----------------
-Menu de opciones
+Options menu
 ----------------
-Ver tareas (1), agregar (2), quitar (3) o salir (4)
-Elije una opcion: 2
+View tasks (1), add (2), remove (3) or exit (4)
+Choose an option: 2
 ----------------
-Que tarea quieres asignar: Estudiar Python
-Tarea agregada ✔
+What task do you want to assign: Study Python
+Task added ✔
 ----------------
 ```
 
-## 📚 Lo que aprendí con este proyecto
+## 📚 What I learned with this project
 
-- Manejo de **listas** en Python (`append`, `pop`, `len`)
-- **Bucles** `while` y **condicionales** `if / elif / else`
-- **Funciones** para organizar el código
-- **Persistencia** con `json` y `os` (guardar/cargar datos)
-- **Validación** de entradas con `try / except`
+- Handling **lists** in Python (`append`, `pop`, `len`)
+- **Loops** `while` and **conditionals** `if / elif / else`
+- **Functions** to organize code
+- **Persistence** with `json` and `os` (save/load data)
+- **Input validation** with `try / except`
 
-## 🔜 Mejoras futuras
+## 🔜 Future improvements
 
-- [ ] Marcar tareas como completadas
-- [ ] Editar una tarea existente
-- [ ] Interfaz gráfica (Tkinter)
+- [ ] Mark tasks as completed
+- [ ] Edit an existing task
+- [ ] Graphical interface (Tkinter)
 
 ---
 
-✍️ Hecho por **Holfkings Arenas** como parte de mi aprendizaje en Python.
+✍️ Made by **Holfkings Arenas** as part of my Python learning journey.
